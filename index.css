@@ -3,3 +3,8 @@ h1 {
 	text-shadow: rgb(128, 0, 109) 0px 0 10px;
 	color: rgb(62, 40, 164);
    }
+   h2 {
+	background-color:white;
+	text-shadow: rgb(2, 1, 2) 0px 0 10px;
+	color: rgb(23, 155, 146);
+   }
