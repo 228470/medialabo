@@ -13,3 +13,7 @@ h1 {
     text-shadow: rgb(67, 73, 73) 0px 0 10px;
 	color: rgb(5, 4, 9);
    }
+   div#zentai > div {
+	margin-left: 5px;
+	background-color: #ffefaf;
+   }
