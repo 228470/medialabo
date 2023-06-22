@@ -10,5 +10,6 @@ h1 {
    }
    h3 {
 	background-color:white;
+    text-shadow: rgb(67, 73, 73) 0px 0 10px;
 	color: rgb(5, 4, 9);
    }
