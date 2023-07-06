@@ -28,20 +28,20 @@ function hantei() {
   let SpanResult = document.querySelector('p#result');
 
   if(kaisu < 3){
-    if(hantei === kotae){
+    if(yoso === kotae){
       SpanResult.textContent = '正解^-^。おめでとう!';
     }else  {
-      if(hantei<kotae){
+      if(yoso<kotae){
         SpanResult.textContent = '残念、答えはもっと大きいです。';
       }else {
         SpanResult.textContent = '残念、答えはもっと小さいです。';
       }
     }
   }else if(kaisu === 3){
-    if(hantei === kotae){
+    if(yoso === kotae){
       SpanResult.textContent = '正解^-^。おめでとう!';
     }else{
-      if(hantei<kotae){
+      if(yoso<kotae){
         SpanResult.textContent = '残念! 答えは'+kotae+'でした';
       }else{
         SpanResult.textContent = '残念! 答えは'+kotae+'でした';
