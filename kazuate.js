@@ -29,17 +29,17 @@ function hantei() {
 
   if(kaisu < 3){
     if(hantei === kotae){
-      SpanResult.textContent = '正解です。おめでとう!';
-    }else {
-      if(hantei>kotae){
+      SpanResult.textContent = '正解^-^。おめでとう!';
+    }else  {
+      if(hantei<kotae){
         SpanResult.textContent = '残念、答えはもっと大きいです。';
-      }else{
+      }else {
         SpanResult.textContent = '残念、答えはもっと小さいです。';
       }
     }
   }else if(kaisu === 3){
     if(hantei === kotae){
-      SpanResult.textContent = '正解です。おめでとう!';
+      SpanResult.textContent = '正解^-^。おめでとう!';
     }else{
       if(hantei<kotae){
         SpanResult.textContent = '残念! 答えは'+kotae+'でした';
