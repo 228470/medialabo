@@ -6,8 +6,6 @@ console.log('答え（デバッグ用）: ' + kotae);
 let kaisu = 0;
 // 予想を4回実行する
 // 将来以下の hantei(); の4回の呼び出しを全て削除する
-let b = document.querySelector('#print');
-b.addEventListener('click', hantei);
 
 
 // ボタンを押した後の処理をする関数 hantei() の定義
