@@ -28,7 +28,7 @@ function hantei() {
   let SpanResult = document.querySelector('p#result');
 
   if(kaisu < 3){
-    if(yoso === kotae){
+    if(yoso == kotae){
       SpanResult.textContent = '正解^-^。おめでとう!';
     }else  {
       if(yoso<kotae){
@@ -38,7 +38,7 @@ function hantei() {
       }
     }
   }else if(kaisu === 3){
-    if(yoso === kotae){
+    if(yoso == kotae){
       SpanResult.textContent = '正解^-^。おめでとう!';
     }else{
       if(yoso<kotae){
