@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>My test page</title>
-  </head>
-  <body>
-    <ul>
-        <li>世界の天気（検索結果1件）</li>
-        <ul>
-            <li>緯度: 116.3972</li>
-            <li>経度: 39.9075</li>
-            <li>天気: 曇りがち</li>
-            <li>最低気温: 9.94</li>
-            <li>最高気温 9.94</li>
-            <li>湿度: 14</li>
-            <li>風速: 2.65</li>
-            <li>風向: 197</li>
-            <li>都市名: 北京市</li>
-        </ul>
-    </ul>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>My test page</title>
+</head>
+<body>
+  <label for="city-id">検索キー(世界の天気)</label>
+  <input type="text" id="city-id" placeholder="都市のIDを入力してください">
+  <button id="search-btn">検索</button>
+
+  <!-- Weather information -->
+  <p id="name"></p>
+  <p id="temp_max"></p>
+  <p id="temp_min"></p>
+  <p id="situ"></p>
+  <p id="lat"></p>
+  <p id="lon"></p>
+  <p id="weather"></p>
+  <p id="wind_speed"></p>
+  <p id="wind_deg"></p>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="weather.js"></script>
+</body>
 </html>
